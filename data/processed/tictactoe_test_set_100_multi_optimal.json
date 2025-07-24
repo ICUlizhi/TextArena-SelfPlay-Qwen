@@ -1,0 +1,4633 @@
+[
+  {
+    "id": 1,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\nO | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，2步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 13
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 13
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 8
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 30
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 3,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  | X |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 4,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   | X\n---------\n  | O |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，2步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 8
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 18
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 8
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 5,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 6,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\nX |   | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[7]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[2]",
+      "[3]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 7,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 8,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   | X\n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 9,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  | X |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 10,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  | O | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[2]",
+      "[4]",
+      "[5]"
+    ],
+    "move_analysis": {
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 30
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[2]",
+    "optimal_move": "[2]"
+  },
+  {
+    "id": 11,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  | X |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 12,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]"
+  },
+  {
+    "id": 13,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 14,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]"
+  },
+  {
+    "id": 15,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\nX | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[3]",
+      "[4]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 30
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 16,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 17,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]"
+  },
+  {
+    "id": 18,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  | X |  \n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 19,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 20,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 21,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 22,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  | X |  \n---------\n  |   | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，2步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 18
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 23,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  |   |  \n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[2]",
+      "[4]",
+      "[6]"
+    ],
+    "move_analysis": {
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 30
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[2]",
+    "optimal_move": "[2]"
+  },
+  {
+    "id": 24,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]"
+  },
+  {
+    "id": 25,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 26,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 27,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 28,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 29,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面",
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]"
+  },
+  {
+    "id": 30,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面",
+    "minimax_score": 6,
+    "optimal_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]"
+  },
+  {
+    "id": 31,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\n  | O |  \n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[0]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 32,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | O\n---------\n  |   | X\n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 40
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 33,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O | X\n---------\n  |   | X\n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[8]"
+    ],
+    "move_analysis": {
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 2,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[8]",
+    "optimal_move": "[8]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 34,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X |   |  \n---------\nX | O | O\n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[6]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[6]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 35,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\nO | X |  \n---------\nO |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[5]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "blocking_move",
+    "description": "中局阶段，4步后的复杂局面 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[0]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 28
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 36,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X |   | X\n---------\n  |   | O\n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[1]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 37,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   |  \n---------\n  | O | X\n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[6]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[2]"
+    ],
+    "move_analysis": {
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[2]",
+    "optimal_move": "[2]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 38,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X | O |  \n---------\n  |   | O\n---------\nX | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[3]",
+      "[4]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[3]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 18
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      }
+    },
+    "primary_optimal": "[3]",
+    "optimal_move": "[3]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 39,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "O |   |  \n---------\n  |   | X\n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[2]",
+      "[4]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 40
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      }
+    },
+    "primary_optimal": "[2]",
+    "optimal_move": "[2]",
+    "total_optimal_solutions": 3
+  },
+  {
+    "id": 40,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "O |   |  \n---------\nX | O | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "blocking_move",
+    "description": "中局阶段，4步后的复杂局面 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[8]"
+    ],
+    "move_analysis": {
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[8]",
+    "optimal_move": "[8]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 41,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  | X | O\n---------\nX |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 40
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 42,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | O\n---------\nX | O |  \n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "blocking_move",
+    "description": "中局阶段，4步后的复杂局面 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[6]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 28
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 43,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | X | X\n---------\n  |   | O\n---------\nO |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[3]",
+      "[4]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[0]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 44,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\nO | X |  \n---------\nO |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[5]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[0]",
+      "[7]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 28
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 45,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X |   |  \n---------\nX |   | O\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[6]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 46,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "O | X |  \n---------\n  |   | O\n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[7]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，4步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[7]"
+    ],
+    "move_analysis": {
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[7]",
+    "optimal_move": "[7]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 47,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X |   | X\n---------\nX | O | O\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[1]",
+      "[6]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 18
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 48,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\n  |   | O\n---------\nO | X | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，5步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[0]",
+      "[1]",
+      "[4]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      },
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 23
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 40
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 3
+  },
+  {
+    "id": 49,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "O |   | X\n---------\n  | O | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[3]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[8]"
+    ],
+    "move_analysis": {
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[8]",
+    "optimal_move": "[8]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 50,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X | X |  \n---------\n  | O | O\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[3]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[2]"
+    ],
+    "move_analysis": {
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 3,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[2]",
+    "optimal_move": "[2]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 51,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\nO | O |  \n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "blocking_move",
+    "description": "中局阶段，4步后的复杂局面 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[5]"
+    ],
+    "move_analysis": {
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[5]",
+    "optimal_move": "[5]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 52,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O |  \n---------\n  | X | X\n---------\nX | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[2]",
+      "[3]"
+    ],
+    "move_analysis": {
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      },
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[2]",
+    "optimal_move": "[2]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 53,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | X | X\n---------\n  |   |  \n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[0]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 54,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X | O | X\n---------\n  |   |  \n---------\n  | O | X",
+    "player": "X",
+    "available_moves": [
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]",
+      "[5]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 35
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 55,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\nO |   | X\n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[4]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[8]"
+    ],
+    "move_analysis": {
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[8]",
+    "optimal_move": "[8]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 56,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X | O |  \n---------\nX |   |  \n---------\nO |   | X",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[4]",
+      "[5]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 2,
+        "strategic_value": 35
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 57,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | X | O\n---------\nX |   |  \n---------\n  | X | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[4]",
+      "[5]",
+      "[6]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 3,
+        "strategic_value": 40
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 58,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\n  |   |  \n---------\nO |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[5]"
+    ],
+    "move_analysis": {
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      }
+    },
+    "primary_optimal": "[5]",
+    "optimal_move": "[5]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 59,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\n  |   |  \n---------\nX |   | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 20
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 60,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X |   | X\n---------\n  | O | X\n---------\n  |   | O",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[3]",
+      "[6]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[1]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 61,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "X |   | O\n---------\n  |   |  \n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[4]",
+      "[6]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 40
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 3
+  },
+  {
+    "id": 62,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X | O |  \n---------\nX |   | X\n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[4]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]",
+      "[6]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 35
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 2,
+        "strategic_value": 28
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 63,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   |  \n---------\nX |   |  \n---------\n  | O | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[4]",
+      "[5]",
+      "[6]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[0]",
+      "[4]",
+      "[5]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 28
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 40
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 3
+  },
+  {
+    "id": 64,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   |  \n---------\nX |   | O\n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[4]",
+      "[6]",
+      "[7]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[0]",
+      "[6]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 28
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 28
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 65,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\nX | O | O\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，4步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[0]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 66,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   |  \n---------\n  | O | X\n---------\nX | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[8]"
+    ],
+    "move_type": "blocking_move",
+    "description": "中局阶段，4步后的复杂局面 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[1]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 67,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O |  \n---------\nX | O |  \n---------\nX | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[5]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[0]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 2,
+        "strategic_value": 28
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 68,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   |  \n---------\n  | O | X\n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[8]"
+    ],
+    "move_analysis": {
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      }
+    },
+    "primary_optimal": "[8]",
+    "optimal_move": "[8]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 69,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | O\n---------\nX | X | O\n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[1]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 2,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 70,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\n  |   | O\n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[7]"
+    ],
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true,
+    "minimax_score": 8,
+    "optimal_moves": [
+      "[0]",
+      "[4]",
+      "[7]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 28
+      },
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 40
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 3
+  },
+  {
+    "id": 71,
+    "difficulty": "hard",
+    "stage": "endgame",
+    "board_state": "X | O | X\n---------\nO |   |  \n---------\n  | X | O",
+    "player": "X",
+    "available_moves": [
+      "[4]",
+      "[5]",
+      "[6]"
+    ],
+    "move_type": "draw_move",
+    "description": "残局阶段，6步后的关键决策时刻 - draw_move",
+    "minimax_verified": true,
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[4]",
+      "[5]",
+      "[6]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 30
+      },
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 8
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 3
+  },
+  {
+    "id": 72,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | X |  \n---------\nX | O | O\n---------\nO | X | O",
+    "player": "X",
+    "available_moves": [
+      "[2]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[2]"
+    ],
+    "move_analysis": {
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[2]",
+    "optimal_move": "[2]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 73,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | O | X\n---------\nX | X | O\n---------\n  | X | O",
+    "player": "X",
+    "available_moves": [
+      "[6]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[6]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 74,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | O |  \n---------\nX | O | X\n---------\n  | X | O",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[6]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[6]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 75,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  |   |  \n---------\nO | O | X\n---------\nX | X | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]"
+    ],
+    "move_type": "blocking_move",
+    "description": "残局阶段，6步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[0]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 76,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | O | X\n---------\nO |   | O\n---------\nX | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[4]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 25
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 77,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | O | O\n---------\nO | X | X\n---------\nX | O | X",
+    "player": "X",
+    "available_moves": [
+      "[0]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[0]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 78,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O |   | X\n---------\nO |   | O\n---------\nX | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[4]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 40
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 2,
+        "strategic_value": 28
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 79,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  |   | O\n---------\nO | O | X\n---------\nX |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[7]"
+    ],
+    "move_analysis": {
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[7]",
+    "optimal_move": "[7]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 80,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | X |  \n---------\nO | O | X\n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "blocking_move",
+    "description": "残局阶段，6步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[6]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 2,
+        "strategic_value": 28
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 2,
+        "threats_blocked": 1,
+        "strategic_value": 33
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 81,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | O | O\n---------\nO |   | X\n---------\nX | O | X",
+    "player": "X",
+    "available_moves": [
+      "[4]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 82,
+    "difficulty": "hard",
+    "stage": "endgame",
+    "board_state": "O | X | X\n---------\nX |   | O\n---------\nO | O | X",
+    "player": "X",
+    "available_moves": [
+      "[4]"
+    ],
+    "move_type": "draw_move",
+    "description": "残局阶段，8步后的关键决策时刻 - draw_move",
+    "minimax_verified": true,
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 83,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | X |  \n---------\nX | X | O\n---------\nX |   | O",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[2]",
+      "[7]"
+    ],
+    "move_analysis": {
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 0,
+        "strategic_value": 18
+      },
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 18
+      }
+    },
+    "primary_optimal": "[2]",
+    "optimal_move": "[2]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 84,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | O | X\n---------\nX | O | O\n---------\nX |   | X",
+    "player": "X",
+    "available_moves": [
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[7]"
+    ],
+    "move_analysis": {
+      "[7]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      }
+    },
+    "primary_optimal": "[7]",
+    "optimal_move": "[7]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 85,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | X | X\n---------\nO | O |  \n---------\nX | O | X",
+    "player": "X",
+    "available_moves": [
+      "[5]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[5]"
+    ],
+    "move_analysis": {
+      "[5]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      }
+    },
+    "primary_optimal": "[5]",
+    "optimal_move": "[5]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 86,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | O | X\n---------\nX |   | X\n---------\nO | X | O",
+    "player": "X",
+    "available_moves": [
+      "[4]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 87,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | O | X\n---------\n  | X | X\n---------\nO | X | O",
+    "player": "X",
+    "available_moves": [
+      "[3]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[3]"
+    ],
+    "move_analysis": {
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      }
+    },
+    "primary_optimal": "[3]",
+    "optimal_move": "[3]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 88,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O |   | X\n---------\nX | O | O\n---------\nX | O | X",
+    "player": "X",
+    "available_moves": [
+      "[1]"
+    ],
+    "move_type": "blocking_move",
+    "description": "残局阶段，8步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[1]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 89,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | X | O\n---------\n  | O | O\n---------\nX | O | X",
+    "player": "X",
+    "available_moves": [
+      "[3]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[3]"
+    ],
+    "move_analysis": {
+      "[3]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 3
+      }
+    },
+    "primary_optimal": "[3]",
+    "optimal_move": "[3]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 90,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | O | X\n---------\nX |   | O\n---------\n  | O | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[4]",
+      "[6]"
+    ],
+    "move_type": "blocking_move",
+    "description": "残局阶段，6步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 35
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 91,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X |   | X\n---------\nO | X | O\n---------\n  |   | O",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[6]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[1]",
+      "[6]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 2,
+        "threats_blocked": 0,
+        "strategic_value": 23
+      },
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 92,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O |   | X\n---------\n  | X | O\n---------\nO | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[3]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[1]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 93,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X |   | X\n---------\nX | O | X\n---------\nO |   | O",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[1]"
+    ],
+    "move_analysis": {
+      "[1]": {
+        "position_type": "edge",
+        "threats_created": 0,
+        "threats_blocked": 2,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[1]",
+    "optimal_move": "[1]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 94,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | X | X\n---------\nO | X | X\n---------\n  | O | O",
+    "player": "X",
+    "available_moves": [
+      "[6]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[6]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 95,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | O |  \n---------\nX | X | O\n---------\n  | X | X",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[6]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[6]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 96,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | X | O\n---------\nO |   | X\n---------\nO | O | X",
+    "player": "X",
+    "available_moves": [
+      "[4]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[4]"
+    ],
+    "move_analysis": {
+      "[4]": {
+        "position_type": "center",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 15
+      }
+    },
+    "primary_optimal": "[4]",
+    "optimal_move": "[4]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 97,
+    "difficulty": "hard",
+    "stage": "endgame",
+    "board_state": "  | O | X\n---------\nX | X | O\n---------\nO | X | O",
+    "player": "X",
+    "available_moves": [
+      "[0]"
+    ],
+    "move_type": "draw_move",
+    "description": "残局阶段，8步后的关键决策时刻 - draw_move",
+    "minimax_verified": true,
+    "minimax_score": 0,
+    "optimal_moves": [
+      "[0]"
+    ],
+    "move_analysis": {
+      "[0]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 0,
+        "strategic_value": 8
+      }
+    },
+    "primary_optimal": "[0]",
+    "optimal_move": "[0]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 98,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X |   | O\n---------\nX | O | X\n---------\n  |   | O",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[6]",
+      "[7]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[6]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 1
+  },
+  {
+    "id": 99,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | X | O\n---------\nX | O | X\n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[6]",
+      "[8]"
+    ],
+    "move_type": "blocking_move",
+    "description": "残局阶段，7步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true,
+    "minimax_score": 500,
+    "optimal_moves": [
+      "[6]",
+      "[8]"
+    ],
+    "move_analysis": {
+      "[6]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      },
+      "[8]": {
+        "position_type": "corner",
+        "threats_created": 1,
+        "threats_blocked": 1,
+        "strategic_value": 23
+      }
+    },
+    "primary_optimal": "[6]",
+    "optimal_move": "[6]",
+    "total_optimal_solutions": 2
+  },
+  {
+    "id": 100,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | O |  \n---------\nX | X | O\n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[7]",
+      "[8]"
+    ],
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true,
+    "minimax_score": 1000,
+    "optimal_moves": [
+      "[2]"
+    ],
+    "move_analysis": {
+      "[2]": {
+        "position_type": "corner",
+        "threats_created": 0,
+        "threats_blocked": 1,
+        "strategic_value": 13
+      }
+    },
+    "primary_optimal": "[2]",
+    "optimal_move": "[2]",
+    "total_optimal_solutions": 1
+  }
+]

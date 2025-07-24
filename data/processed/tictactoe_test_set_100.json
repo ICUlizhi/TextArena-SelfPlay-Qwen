@@ -1,0 +1,1763 @@
+[
+  {
+    "id": 1,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  | X |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\nX |   | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[7]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 3,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   | X\n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 4,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 5,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面"
+  },
+  {
+    "id": 6,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面"
+  },
+  {
+    "id": 7,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  | X |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 8,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面"
+  },
+  {
+    "id": 9,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "O |   |  \n---------\n  |   |  \n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]"
+    ],
+    "optimal_move": "[2]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 10,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  | O |  \n---------\n  |   |  \n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 11,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 12,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  | X |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 13,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  | O |  \n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "draw_move",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 14,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 15,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面"
+  },
+  {
+    "id": 16,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   | X\n---------\n  |   | O\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 17,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面"
+  },
+  {
+    "id": 18,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面"
+  },
+  {
+    "id": 19,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面"
+  },
+  {
+    "id": 20,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  | X |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 21,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   | O\n---------\n  |   | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 22,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  | O |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[2]",
+    "move_type": "draw_move",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 23,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 24,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 25,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，1步后的局面"
+  },
+  {
+    "id": 26,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  |   |  \n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，0步后的局面"
+  },
+  {
+    "id": 27,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  | O |  \n---------\n  |   |  \n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "draw_move",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 28,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "O |   |  \n---------\n  |   |  \n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "optimal_move": "[6]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 29,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "X |   |  \n---------\n  | O |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[2]",
+    "move_type": "draw_move",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 30,
+    "difficulty": "easy",
+    "stage": "opening",
+    "board_state": "  | X |  \n---------\nO |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "开局阶段，2步后的局面"
+  },
+  {
+    "id": 31,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O | X\n---------\nX |   |  \n---------\nO |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[4]",
+      "[5]",
+      "[7]"
+    ],
+    "optimal_move": "[5]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 32,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\nX |   |  \n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true
+  },
+  {
+    "id": 33,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O | X\n---------\n  | X |  \n---------\n  | O | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[3]",
+      "[5]",
+      "[6]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 34,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X | X | O\n---------\n  |   | O\n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[3]",
+      "[4]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[3]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 35,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X | O |  \n---------\n  | X |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[8]",
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 36,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O | X\n---------\n  |   | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[8]",
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 37,
+    "difficulty": "hard",
+    "stage": "midgame",
+    "board_state": "X |   |  \n---------\nO |   | X\n---------\n  |   | O",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[4]",
+      "[6]",
+      "[7]"
+    ],
+    "optimal_move": "[2]",
+    "move_type": "draw_move",
+    "description": "中局阶段，4步后的复杂局面 - draw_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 38,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\nO | O |  \n---------\nX |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[5]",
+      "[7]"
+    ],
+    "optimal_move": "[5]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 39,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O | O\n---------\n  | X |  \n---------\n  | X | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[3]",
+      "[5]",
+      "[6]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 40,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | O\n---------\n  | O | X\n---------\nX | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[8]"
+    ],
+    "optimal_move": "[8]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 41,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | O\n---------\n  |   | O\n---------\nX |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[7]"
+    ],
+    "optimal_move": "[7]",
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 42,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\n  | X |  \n---------\nO | O | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[5]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 43,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | X | O\n---------\nO | X | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[7]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 44,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "O |   |  \n---------\n  | X |  \n---------\nO | X | X",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]"
+    ],
+    "optimal_move": "[1]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 45,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\nO |   |  \n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[4]",
+      "[5]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true
+  },
+  {
+    "id": 46,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O | O\n---------\nX | X |  \n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[5]",
+      "[6]",
+      "[7]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 47,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\nO | X | O\n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[6]",
+      "[8]"
+    ],
+    "optimal_move": "[1]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 48,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X |   | X\n---------\n  | O | O\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[3]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[1]",
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 49,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "X | O | X\n---------\n  |   |  \n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true
+  },
+  {
+    "id": 50,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "O | X |  \n---------\n  | X | O\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[3]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[7]",
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 51,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   |  \n---------\n  | X |  \n---------\nO | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[3]",
+      "[5]",
+      "[8]"
+    ],
+    "optimal_move": "[1]",
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 52,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O | X\n---------\nO |   | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[4]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[8]",
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 53,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "O | O |  \n---------\n  | X |  \n---------\nX |   | X",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[3]",
+      "[5]",
+      "[7]"
+    ],
+    "optimal_move": "[2]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 54,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\nO | O |  \n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[5]",
+      "[6]",
+      "[7]"
+    ],
+    "optimal_move": "[5]",
+    "move_type": "blocking_move",
+    "description": "中局阶段，4步后的复杂局面 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 55,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | O\n---------\nX |   |  \n---------\n  | X | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[4]",
+      "[5]",
+      "[6]"
+    ],
+    "optimal_move": "[5]",
+    "move_type": "blocking_move",
+    "description": "中局阶段，4步后的复杂局面 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 56,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | X | X\n---------\n  |   | O\n---------\n  | X | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[3]",
+      "[4]",
+      "[6]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 57,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\n  | X |  \n---------\n  |   | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[5]",
+      "[6]",
+      "[7]"
+    ],
+    "optimal_move": "[6]",
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 58,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | O\n---------\n  |   | X\n---------\nO | X | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "blocking_move",
+    "description": "中局阶段，5步后的复杂局面 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 59,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X |   |  \n---------\nO |   | O\n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[4]",
+      "[6]",
+      "[7]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 60,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   |  \n---------\nX |   |  \n---------\nO |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[2]",
+      "[4]",
+      "[5]",
+      "[7]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true
+  },
+  {
+    "id": 61,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\n  |   | X\n---------\n  |   | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[7]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true
+  },
+  {
+    "id": 62,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\n  |   | X\n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[6]",
+      "[8]"
+    ],
+    "optimal_move": "[2]",
+    "move_type": "winning_sequence",
+    "description": "中局阶段，3步后的复杂局面 - winning_sequence",
+    "minimax_verified": true
+  },
+  {
+    "id": 63,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | O\n---------\n  |   | X\n---------\nX | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[4]",
+      "[8]"
+    ],
+    "optimal_move": "[3]",
+    "move_type": "winning_sequence",
+    "description": "中局阶段，4步后的复杂局面 - winning_sequence",
+    "minimax_verified": true
+  },
+  {
+    "id": 64,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\n  |   |  \n---------\nO | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[3]",
+      "[4]",
+      "[5]",
+      "[8]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 65,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  |   | O\n---------\n  | O | X\n---------\n  | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[6]",
+      "[8]"
+    ],
+    "optimal_move": "[6]",
+    "move_type": "blocking_move",
+    "description": "中局阶段，4步后的复杂局面 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 66,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | O |  \n---------\nX | O |  \n---------\nX |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[5]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 67,
+    "difficulty": "medium",
+    "stage": "midgame",
+    "board_state": "  | X |  \n---------\nX | O |  \n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[2]",
+      "[5]",
+      "[6]",
+      "[8]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_sequence",
+    "description": "中局阶段，4步后的复杂局面 - winning_sequence",
+    "minimax_verified": true
+  },
+  {
+    "id": 68,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  | X | O\n---------\n  | X |  \n---------\nO |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[3]",
+      "[5]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[7]",
+    "move_type": "winning_move",
+    "description": "中局阶段，4步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 69,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "  |   | X\n---------\n  | O | X\n---------\n  |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[3]",
+      "[6]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[8]",
+    "move_type": "winning_move",
+    "description": "中局阶段，3步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 70,
+    "difficulty": "easy",
+    "stage": "midgame",
+    "board_state": "X | X |  \n---------\nX |   |  \n---------\n  | O | O",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[4]",
+      "[5]",
+      "[6]"
+    ],
+    "optimal_move": "[2]",
+    "move_type": "winning_move",
+    "description": "中局阶段，5步后的复杂局面 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 71,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | X | X\n---------\nO |   |  \n---------\nO | O | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[4]",
+      "[5]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 72,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | X |  \n---------\nX | X | O\n---------\nX | O | O",
+    "player": "X",
+    "available_moves": [
+      "[2]"
+    ],
+    "optimal_move": "[2]",
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 73,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | O | X\n---------\nX | O | X\n---------\nO | X | O",
+    "player": "X",
+    "available_moves": [
+      "[0]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "blocking_move",
+    "description": "残局阶段，8步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 74,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | O | O\n---------\nO | X |  \n---------\nX | X | O",
+    "player": "X",
+    "available_moves": [
+      "[5]"
+    ],
+    "optimal_move": "[5]",
+    "move_type": "blocking_move",
+    "description": "残局阶段，8步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 75,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | X |  \n---------\nO | O | X\n---------\nO | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[8]"
+    ],
+    "optimal_move": "[2]",
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 76,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | X | O\n---------\nX | O | X\n---------\nX | O | O",
+    "player": "X",
+    "available_moves": [
+      "[0]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 77,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | X | O\n---------\nO | O |  \n---------\nX | X | O",
+    "player": "X",
+    "available_moves": [
+      "[5]"
+    ],
+    "optimal_move": "[5]",
+    "move_type": "blocking_move",
+    "description": "残局阶段，8步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 78,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | O | X\n---------\nX | O | O\n---------\nX |   | X",
+    "player": "X",
+    "available_moves": [
+      "[7]"
+    ],
+    "optimal_move": "[7]",
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 79,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O |   |  \n---------\nX | X |  \n---------\nO | X | O",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[5]"
+    ],
+    "optimal_move": "[1]",
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 80,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | X | O\n---------\nO | O | X\n---------\n  |   | X",
+    "player": "X",
+    "available_moves": [
+      "[6]",
+      "[7]"
+    ],
+    "optimal_move": "[6]",
+    "move_type": "blocking_move",
+    "description": "残局阶段，7步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 81,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | O | X\n---------\n  |   | O\n---------\nX |   | X",
+    "player": "X",
+    "available_moves": [
+      "[3]",
+      "[4]",
+      "[7]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 82,
+    "difficulty": "hard",
+    "stage": "endgame",
+    "board_state": "  |   | X\n---------\nX |   | O\n---------\nO | X | O",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[1]",
+      "[4]"
+    ],
+    "optimal_move": "[1]",
+    "move_type": "winning_sequence",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_sequence",
+    "minimax_verified": true
+  },
+  {
+    "id": 83,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | X | X\n---------\n  | X | O\n---------\n  | O | X",
+    "player": "X",
+    "available_moves": [
+      "[3]",
+      "[6]"
+    ],
+    "optimal_move": "[6]",
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 84,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | O | X\n---------\nO | X | X\n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[6]",
+      "[8]"
+    ],
+    "optimal_move": "[6]",
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 85,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | O | O\n---------\nO | X | X\n---------\nO | X |  ",
+    "player": "X",
+    "available_moves": [
+      "[8]"
+    ],
+    "optimal_move": "[8]",
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 86,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O |   | O\n---------\nX | O | X\n---------\nX | O | X",
+    "player": "X",
+    "available_moves": [
+      "[1]"
+    ],
+    "optimal_move": "[1]",
+    "move_type": "blocking_move",
+    "description": "残局阶段，8步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 87,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | O | O\n---------\n  | X | O\n---------\nX |   | X",
+    "player": "X",
+    "available_moves": [
+      "[0]",
+      "[3]",
+      "[7]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 88,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | O | X\n---------\n  | O | O\n---------\nX | X | O",
+    "player": "X",
+    "available_moves": [
+      "[3]"
+    ],
+    "optimal_move": "[3]",
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 89,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X |   |  \n---------\nO | X | X\n---------\nO |   | O",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[2]",
+      "[7]"
+    ],
+    "optimal_move": "[7]",
+    "move_type": "blocking_move",
+    "description": "残局阶段，6步后的关键决策时刻 - blocking_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 90,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | O | X\n---------\nX |   | X\n---------\nX |   | O",
+    "player": "X",
+    "available_moves": [
+      "[4]",
+      "[7]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 91,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | O | O\n---------\nX | X | O\n---------\nO | X | X",
+    "player": "X",
+    "available_moves": [
+      "[0]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 92,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O |   | X\n---------\nO |   | X\n---------\nX |   | O",
+    "player": "X",
+    "available_moves": [
+      "[1]",
+      "[4]",
+      "[7]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 93,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | X | O\n---------\nX |   | O\n---------\n  | O | X",
+    "player": "X",
+    "available_moves": [
+      "[4]",
+      "[6]"
+    ],
+    "optimal_move": "[4]",
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 94,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "O | X | X\n---------\nX |   |  \n---------\nO | O | X",
+    "player": "X",
+    "available_moves": [
+      "[4]",
+      "[5]"
+    ],
+    "optimal_move": "[5]",
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 95,
+    "difficulty": "hard",
+    "stage": "endgame",
+    "board_state": "O | X | O\n---------\n  | O | X\n---------\nX | O | X",
+    "player": "X",
+    "available_moves": [
+      "[3]"
+    ],
+    "optimal_move": "[3]",
+    "move_type": "draw_move",
+    "description": "残局阶段，8步后的关键决策时刻 - draw_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 96,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | O | O\n---------\nX | O |  \n---------\n  | X | X",
+    "player": "X",
+    "available_moves": [
+      "[5]",
+      "[6]"
+    ],
+    "optimal_move": "[6]",
+    "move_type": "winning_move",
+    "description": "残局阶段，7步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 97,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | O | X\n---------\nO |   | X\n---------\n  | O |  ",
+    "player": "X",
+    "available_moves": [
+      "[4]",
+      "[6]",
+      "[8]"
+    ],
+    "optimal_move": "[8]",
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 98,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | O | O\n---------\nX | X |  \n---------\nO | X | O",
+    "player": "X",
+    "available_moves": [
+      "[5]"
+    ],
+    "optimal_move": "[5]",
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 99,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "  | X | X\n---------\nX | O | O\n---------\nO | X | O",
+    "player": "X",
+    "available_moves": [
+      "[0]"
+    ],
+    "optimal_move": "[0]",
+    "move_type": "winning_move",
+    "description": "残局阶段，8步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  },
+  {
+    "id": 100,
+    "difficulty": "medium",
+    "stage": "endgame",
+    "board_state": "X | O |  \n---------\nO | X | X\n---------\nO |   |  ",
+    "player": "X",
+    "available_moves": [
+      "[2]",
+      "[7]",
+      "[8]"
+    ],
+    "optimal_move": "[8]",
+    "move_type": "winning_move",
+    "description": "残局阶段，6步后的关键决策时刻 - winning_move",
+    "minimax_verified": true
+  }
+]
