@@ -1,0 +1,7 @@
+textarena-sdk
+numpy
+pandas
+pyyaml
+regex
+torch
+transformers

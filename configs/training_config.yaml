@@ -1,0 +1,48 @@
+# LLaMA-Factory Training Configuration for TicTacToe
+# This configuration file is for training a language model on TicTacToe self-play data
+
+# Model settings
+model_name_or_path: "qwen/Qwen2.5-3B-Instruct"  # Path to your base model
+template: "qwen"
+
+# Data settings  
+dataset: "tictactoe_sft"
+dataset_dir: "../data/processed"
+cutoff_len: 2048
+
+# Training settings
+stage: "sft"
+do_train: true
+finetuning_type: "lora"
+
+# LoRA settings
+lora_target: "all"
+lora_rank: 64
+lora_alpha: 16
+lora_dropout: 0.1
+
+# Training hyperparameters
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 4
+learning_rate: 5.0e-4
+num_train_epochs: 3
+lr_scheduler_type: "cosine"
+warmup_steps: 100
+
+# Logging and saving
+output_dir: "../models/tictactoe_sft"
+logging_steps: 10
+save_steps: 500
+save_total_limit: 2
+
+# Evaluation settings
+val_size: 0.1
+per_device_eval_batch_size: 4
+evaluation_strategy: "steps"
+eval_steps: 500
+
+# Other settings
+overwrite_output_dir: true
+fp16: true
+remove_unused_columns: false
+report_to: "none"

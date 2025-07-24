@@ -1,0 +1,20 @@
+# Ignore data directories
+data/
+*.data
+models/
+qwen/
+evaluation_results/
+
+# Ignore cache files and directories
+cache/
+*.cache
+__pycache__/
+*.pyc
+*.pkl
+*.tmp
+*.log
+
+#忽略evaluation文件夹下的结果文件
+evaluation/evaluation_*.json
+evaluation/full_*.json
+evaluation/cot_*.json

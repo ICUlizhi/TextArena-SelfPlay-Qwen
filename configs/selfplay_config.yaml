@@ -1,0 +1,15 @@
+selfplay_config:
+  num_games: 1000
+  max_steps_per_game: 9
+  agents:
+    - type: "QwenAgent"
+      model_path: "path/to/local/qwen/model"
+      player_mark: "X"
+    - type: "SmartAgent"
+      player_mark: "O"
+  data_storage:
+    raw_data_path: "data/raw"
+    processed_data_path: "data/processed"
+  logging:
+    log_level: "INFO"
+    log_file: "selfplay.log"

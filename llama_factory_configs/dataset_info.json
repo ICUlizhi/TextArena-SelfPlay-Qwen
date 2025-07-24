@@ -1,0 +1,80 @@
+{
+  "tictactoe_tiny_cot": {
+    "file_name": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/data/processed/long_cot_sft_data_tiny_20250724_212537.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  },
+  "tictactoe_short_cot": {
+    "file_name": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/data/processed/long_cot_sft_data_short_20250724_212614.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  },
+  "tictactoe_medium_cot": {
+    "file_name": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/data/processed/long_cot_sft_data_medium_20250724_212651.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  },
+  "tictactoe_long_cot": {
+    "file_name": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/data/processed/long_cot_sft_data_long_20250724_212731.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  },
+  "tictactoe_very_long_cot": {
+    "file_name": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/data/processed/long_cot_sft_data_very_long_20250724_212820.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  },
+  "tictactoe_ultra_long_cot": {
+    "file_name": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/data/processed/long_cot_sft_data_ultra_long_20250724_212901.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  }
+}
