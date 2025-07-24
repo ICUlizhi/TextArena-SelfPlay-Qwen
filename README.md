@@ -1,5 +1,8 @@
 # 基于井字棋的Long Chain of Thought (CoT) 实验报告
 [github](https://github.com/ICUlizhi/TextArena-SelfPlay-Qwen)
+
+- 目前**quickstart.sh脚本bug比较多**, 复现不方便, readme是用ai写的
+- 初期使用 Claude Sonnet 4 进行氛围编程, 节省debug时间
 ## 一、项目概述
 
 本实验基于O1范式，针对井字棋问题构建了长链式思维（Long CoT）训练数据集，并使用Qwen-2.5基座模型进行有监督微调（SFT），探索不同CoT长度对模型推理性能的影响。
