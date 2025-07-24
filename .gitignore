@@ -1,20 +1,130 @@
-# Ignore data directories
-data/
-*.data
-models/
-qwen/
-evaluation_results/
-
-# Ignore cache files and directories
-cache/
-*.cache
+# Python
 __pycache__/
-*.pyc
-*.pkl
-*.tmp
-*.log
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-#忽略evaluation文件夹下的结果文件
+# PyTorch/Transformers/Model files
+*.pth
+*.pt
+*.bin
+*.safetensors
+checkpoint-*/
+adapter_model.*
+optimizer.pt
+rng_state.pth
+scheduler.pt
+trainer_state.json
+
+# Large data files and directories
+data/raw/
+data/processed/*.json
+!data/processed/README.md
+!data/processed/.gitkeep
+!data/processed/tictactoe_test_set_100.json
+!data/processed/tictactoe_test_set_100_multi_optimal.json
+*.data
+
+# Model directories
+models/*/
+!models/README.md
+!models/.gitkeep
+qwen/
+
+# Evaluation results
+evaluation_results/
 evaluation/evaluation_*.json
 evaluation/full_*.json
 evaluation/cot_*.json
+
+# Logs and monitoring
+logs/
+*.log
+*.pid
+*.out
+*.err
+wandb/
+tensorboard_logs/
+mlruns/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda-env/
+.conda/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+temp/
+tmp/
+.tmp/
+*.tmp
+cache/
+*.cache
+*.pkl
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large compressed files
+*.gz
+*.tar
+*.zip
+*.7z
+*.rar
+
+# CUDA/GPU related
+*.cuda
+*.nccl
+
+# Environment variables
+.env.local
+.env.*.local
+
+# Cache and test directories
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation build
+docs/_build/
+site/
