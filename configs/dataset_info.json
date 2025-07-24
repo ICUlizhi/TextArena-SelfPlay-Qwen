@@ -1,0 +1,15 @@
+{
+  "tictactoe_sft": {
+    "file_name": "sft_training_data_llama_factory_latest.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  }
+}

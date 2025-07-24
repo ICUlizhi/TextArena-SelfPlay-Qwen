@@ -1,0 +1,462 @@
+{
+  "analysis_info": {
+    "total_files": 7,
+    "total_cases": 700,
+    "total_correct": 269,
+    "average_accuracy": 38.42857142857143,
+    "pattern": "evaluation_*.json",
+    "sort_by": "accuracy"
+  },
+  "model_results": [
+    {
+      "filename": "evaluation_ultra_long_cuda_6_20250724_235359_806.json",
+      "model_name": "qwen_ultra_long_cot_lora",
+      "model_path": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/models/qwen_ultra_long_cot_lora",
+      "device": "cuda:0",
+      "timestamp": "2025-07-25T00:27:47.240660",
+      "total_cases": 100,
+      "correct_cases": 52,
+      "accuracy": 52.0,
+      "difficulty_stats": {
+        "easy": {
+          "total": 53,
+          "correct": 31
+        },
+        "medium": {
+          "total": 44,
+          "correct": 18
+        },
+        "hard": {
+          "total": 3,
+          "correct": 3
+        }
+      },
+      "stage_stats": {
+        "opening": {
+          "total": 30,
+          "correct": 24
+        },
+        "midgame": {
+          "total": 40,
+          "correct": 10
+        },
+        "endgame": {
+          "total": 30,
+          "correct": 18
+        }
+      },
+      "move_type_stats": {
+        "winning_sequence": {
+          "total": 29,
+          "correct": 14
+        },
+        "draw_move": {
+          "total": 16,
+          "correct": 15
+        },
+        "winning_move": {
+          "total": 45,
+          "correct": 20
+        },
+        "blocking_move": {
+          "total": 10,
+          "correct": 3
+        }
+      }
+    },
+    {
+      "filename": "evaluation_very_long_cuda_5_20250724_235359_806.json",
+      "model_name": "qwen_very_long_cot_lora",
+      "model_path": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/models/qwen_very_long_cot_lora",
+      "device": "cuda:0",
+      "timestamp": "2025-07-25T00:04:30.818486",
+      "total_cases": 100,
+      "correct_cases": 50,
+      "accuracy": 50.0,
+      "difficulty_stats": {
+        "easy": {
+          "total": 53,
+          "correct": 27
+        },
+        "medium": {
+          "total": 44,
+          "correct": 20
+        },
+        "hard": {
+          "total": 3,
+          "correct": 3
+        }
+      },
+      "stage_stats": {
+        "opening": {
+          "total": 30,
+          "correct": 24
+        },
+        "midgame": {
+          "total": 40,
+          "correct": 6
+        },
+        "endgame": {
+          "total": 30,
+          "correct": 20
+        }
+      },
+      "move_type_stats": {
+        "winning_sequence": {
+          "total": 29,
+          "correct": 14
+        },
+        "draw_move": {
+          "total": 16,
+          "correct": 16
+        },
+        "winning_move": {
+          "total": 45,
+          "correct": 18
+        },
+        "blocking_move": {
+          "total": 10,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "filename": "evaluation_long_cuda_4_20250724_235359_806.json",
+      "model_name": "qwen_long_cot_lora",
+      "model_path": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/models/qwen_long_cot_lora",
+      "device": "cuda:0",
+      "timestamp": "2025-07-25T00:12:32.333696",
+      "total_cases": 100,
+      "correct_cases": 50,
+      "accuracy": 50.0,
+      "difficulty_stats": {
+        "easy": {
+          "total": 53,
+          "correct": 29
+        },
+        "medium": {
+          "total": 44,
+          "correct": 18
+        },
+        "hard": {
+          "total": 3,
+          "correct": 3
+        }
+      },
+      "stage_stats": {
+        "opening": {
+          "total": 30,
+          "correct": 26
+        },
+        "midgame": {
+          "total": 40,
+          "correct": 8
+        },
+        "endgame": {
+          "total": 30,
+          "correct": 16
+        }
+      },
+      "move_type_stats": {
+        "winning_sequence": {
+          "total": 29,
+          "correct": 18
+        },
+        "draw_move": {
+          "total": 16,
+          "correct": 15
+        },
+        "winning_move": {
+          "total": 45,
+          "correct": 15
+        },
+        "blocking_move": {
+          "total": 10,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "filename": "evaluation_short_cuda_2_20250724_235359_806.json",
+      "model_name": "qwen_short_cot_lora",
+      "model_path": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/models/qwen_short_cot_lora",
+      "device": "cuda:0",
+      "timestamp": "2025-07-25T00:27:13.889266",
+      "total_cases": 100,
+      "correct_cases": 47,
+      "accuracy": 47.0,
+      "difficulty_stats": {
+        "easy": {
+          "total": 53,
+          "correct": 33
+        },
+        "medium": {
+          "total": 44,
+          "correct": 13
+        },
+        "hard": {
+          "total": 3,
+          "correct": 1
+        }
+      },
+      "stage_stats": {
+        "opening": {
+          "total": 30,
+          "correct": 26
+        },
+        "midgame": {
+          "total": 40,
+          "correct": 9
+        },
+        "endgame": {
+          "total": 30,
+          "correct": 12
+        }
+      },
+      "move_type_stats": {
+        "winning_sequence": {
+          "total": 29,
+          "correct": 15
+        },
+        "draw_move": {
+          "total": 16,
+          "correct": 14
+        },
+        "winning_move": {
+          "total": 45,
+          "correct": 16
+        },
+        "blocking_move": {
+          "total": 10,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "filename": "evaluation_tiny_cuda_1_20250724_235359_805.json",
+      "model_name": "qwen_tiny_cot_lora",
+      "model_path": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/models/qwen_tiny_cot_lora",
+      "device": "cuda:0",
+      "timestamp": "2025-07-25T00:33:52.996955",
+      "total_cases": 100,
+      "correct_cases": 46,
+      "accuracy": 46.0,
+      "difficulty_stats": {
+        "easy": {
+          "total": 53,
+          "correct": 31
+        },
+        "medium": {
+          "total": 44,
+          "correct": 13
+        },
+        "hard": {
+          "total": 3,
+          "correct": 2
+        }
+      },
+      "stage_stats": {
+        "opening": {
+          "total": 30,
+          "correct": 25
+        },
+        "midgame": {
+          "total": 40,
+          "correct": 9
+        },
+        "endgame": {
+          "total": 30,
+          "correct": 12
+        }
+      },
+      "move_type_stats": {
+        "winning_sequence": {
+          "total": 29,
+          "correct": 16
+        },
+        "draw_move": {
+          "total": 16,
+          "correct": 14
+        },
+        "winning_move": {
+          "total": 45,
+          "correct": 15
+        },
+        "blocking_move": {
+          "total": 10,
+          "correct": 1
+        }
+      }
+    },
+    {
+      "filename": "evaluation_baseline_cuda_0_20250724_235359_804.json",
+      "model_name": "qwen",
+      "model_path": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/qwen",
+      "device": "cuda:0",
+      "timestamp": "2025-07-24T23:57:04.757866",
+      "total_cases": 100,
+      "correct_cases": 22,
+      "accuracy": 22.0,
+      "difficulty_stats": {
+        "easy": {
+          "total": 53,
+          "correct": 14
+        },
+        "medium": {
+          "total": 44,
+          "correct": 8
+        },
+        "hard": {
+          "total": 3,
+          "correct": 0
+        }
+      },
+      "stage_stats": {
+        "opening": {
+          "total": 30,
+          "correct": 11
+        },
+        "midgame": {
+          "total": 40,
+          "correct": 5
+        },
+        "endgame": {
+          "total": 30,
+          "correct": 6
+        }
+      },
+      "move_type_stats": {
+        "winning_sequence": {
+          "total": 29,
+          "correct": 9
+        },
+        "draw_move": {
+          "total": 16,
+          "correct": 4
+        },
+        "winning_move": {
+          "total": 45,
+          "correct": 7
+        },
+        "blocking_move": {
+          "total": 10,
+          "correct": 2
+        }
+      }
+    },
+    {
+      "filename": "evaluation_medium_cuda_3_20250724_235359_806.json",
+      "model_name": "qwen_medium_cot_lora",
+      "model_path": "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/models/qwen_medium_cot_lora",
+      "device": "cuda:0",
+      "timestamp": "2025-07-25T00:36:08.149066",
+      "total_cases": 100,
+      "correct_cases": 2,
+      "accuracy": 2.0,
+      "difficulty_stats": {
+        "easy": {
+          "total": 53,
+          "correct": 1
+        },
+        "medium": {
+          "total": 44,
+          "correct": 1
+        },
+        "hard": {
+          "total": 3,
+          "correct": 0
+        }
+      },
+      "stage_stats": {
+        "opening": {
+          "total": 30,
+          "correct": 1
+        },
+        "midgame": {
+          "total": 40,
+          "correct": 1
+        },
+        "endgame": {
+          "total": 30,
+          "correct": 0
+        }
+      },
+      "move_type_stats": {
+        "winning_sequence": {
+          "total": 29,
+          "correct": 1
+        },
+        "draw_move": {
+          "total": 16,
+          "correct": 1
+        },
+        "winning_move": {
+          "total": 45,
+          "correct": 0
+        },
+        "blocking_move": {
+          "total": 10,
+          "correct": 0
+        }
+      }
+    }
+  ],
+  "combined_stats": {
+    "difficulty": {
+      "easy": {
+        "total": 371,
+        "correct": 166,
+        "accuracy": 44.74393530997305
+      },
+      "medium": {
+        "total": 308,
+        "correct": 91,
+        "accuracy": 29.545454545454547
+      },
+      "hard": {
+        "total": 21,
+        "correct": 12,
+        "accuracy": 57.14285714285714
+      }
+    },
+    "stage": {
+      "opening": {
+        "total": 210,
+        "correct": 137,
+        "accuracy": 65.23809523809524
+      },
+      "midgame": {
+        "total": 280,
+        "correct": 48,
+        "accuracy": 17.142857142857142
+      },
+      "endgame": {
+        "total": 210,
+        "correct": 84,
+        "accuracy": 40.0
+      }
+    },
+    "move_type": {
+      "winning_sequence": {
+        "total": 203,
+        "correct": 87,
+        "accuracy": 42.857142857142854
+      },
+      "draw_move": {
+        "total": 112,
+        "correct": 79,
+        "accuracy": 70.53571428571429
+      },
+      "winning_move": {
+        "total": 315,
+        "correct": 91,
+        "accuracy": 28.888888888888886
+      },
+      "blocking_move": {
+        "total": 70,
+        "correct": 12,
+        "accuracy": 17.142857142857142
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+model_name: "local_qwen_model"
+model_path: "/mnt/cvda/cvda_avatar/1/textarena-selfplay-qwen/qwen"
+max_tokens: 150
+temperature: 0.7
+top_p: 0.9
+frequency_penalty: 0.0
+presence_penalty: 0.0
+use_long_cot: true
+long_cot_steps: 5
+action_space: [0, 1, 2, 3, 4, 5, 6, 7, 8]
