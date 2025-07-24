@@ -1,10 +1,8 @@
-# TextArena SelfPlay Qwen - 井字棋CoT训练项目
-
+# 基于井字棋的Long Chain of Thought (CoT) 实验报告
+[github](https://github.com/ICUlizhi/TextArena-SelfPlay-Qwen)
 ## 一、项目概述
 
 本实验基于O1范式，针对井字棋问题构建了长链式思维（Long CoT）训练数据集，并使用Qwen-2.5基座模型进行有监督微调（SFT），探索不同CoT长度对模型推理性能的影响。
-
-- 目前**quickstart.sh脚本bug比较多**, 复现不方便, readme主要是ai写的
 
 ### 1.1 实验目标
 - 构建多样化长度的self-play的CoT训练数据集
@@ -12,65 +10,26 @@
 - 分析CoT长度与模型性能的关系
 - 在测试集上实现超过50%的准确率提升
 
-### 1.2 项目结构
+### 1.2 实验结果
+![CoT性能分析图](./cot_performance_analysis.png)
 
-本项目采用模块化设计，主要目录结构如下：
 
-```
-textarena-selfplay-qwen/
-├── configs/                    # 配置文件
-│   ├── dataset_info.json      # 数据集配置信息
-│   ├── model_config.yaml      # 模型配置参数
-│   ├── selfplay_config.yaml   # 自对弈配置
-│   └── training_config.yaml   # 训练配置参数
-├── data/                      # 数据目录
-│   ├── processed/             # 处理后的训练数据
-│   └── raw/                   # 原始self-play数据
-├── docs/                      # 项目文档
-│   ├── SCRIPTS_GUIDE.md       # 脚本使用指南
-│   └── TEST_SET_AVOIDANCE_GUIDE.md # 测试集避免指南
-├── evaluation/                # 评估系统
-│   ├── generate_multi_optimal_test_set.py  # 多最优解测试集生成
-│   ├── multi_optimal_evaluator.py          # 多最优解评估器
-│   ├── run_full_evaluation.py              # 完整评估流程
-│   └── analysis_summary.json               # 分析结果汇总
-├── evaluation_results/        # 评估结果存储
-├── examples/                  # 示例代码
-│   ├── long_cot_demo.py      # 长CoT演示
-│   └── quick_start.py        # 快速开始示例
-├── llama_factory_configs/     # LLaMA-Factory配置
-│   ├── qwen_*_sft_config.yaml # 各长度模型训练配置
-│   └── dataset_info.json      # 数据集信息
-├── logs/                      # 训练日志
-├── models/                    # 训练好的模型
-│   ├── qwen_tiny_cot_lora/    # 极短CoT模型
-│   ├── qwen_short_cot_lora/   # 短CoT模型
-│   ├── qwen_medium_cot_lora/  # 中等CoT模型
-│   ├── qwen_long_cot_lora/    # 长CoT模型
-│   ├── qwen_very_long_cot_lora/ # 超长CoT模型
-│   ├── qwen_ultra_long_cot_lora/ # 极长CoT模型
-│   └── v1/                    # 模型版本备份
-├── scripts/                   # 脚本工具
-│   ├── data_generation/       # 数据生成脚本
-│   ├── evaluation/           # 评估脚本
-│   ├── training/             # 训练脚本
-│   └── utils/                # 工具脚本
-├── src/                      # 核心源代码
-│   ├── agents/               # 智能代理
-│   │   ├── qwen_agent.py     # Qwen智能代理
-│   │   └── smart_agent.py    # 通用智能代理
-│   ├── data_generation/      # 数据生成模块
-│   │   ├── data_collector.py # 数据收集器
-│   │   └── selfplay_runner.py # 自对弈运行器
-│   ├── models/               # 模型封装
-│   ├── utils/                # 工具函数
-│   └── main.py               # 主程序入口
-├── tests/                    # 测试代码
-├── tools/                    # 工具脚本
-├── requirements.txt          # Python依赖
-├── quickstart.sh            # 快速启动脚本
-└── 实验报告.md              # 本实验报告
-```
+1. **显著性能提升**: 所有CoT模型相比Baseline都有显著提升，最低提升81.8%，最高提升136.4%
+
+2. **最优CoT长度**: Long CoT（676.4字符）达到最佳性能52%，超过目标50%
+
+3. **性能趋势**: 
+   - CoT长度在0-700字符范围内，性能随长度增加而提升
+   - 超过700字符后，性能增长趋于平缓甚至略有下降
+   - 存在最优CoT长度区间
+
+4. **相关性分析**: CoT长度与准确率的相关系数为0.734，显示强正相关关系
+
+### 1.2 项目pipeline
+
+![alt text](image.png)
+
+图片来自[deepwiki](https://deepwiki.com/ICUlizhi/TextArena-SelfPlay-Qwen)
 
 **关键组件说明:**
 
@@ -78,6 +37,7 @@ textarena-selfplay-qwen/
 2. **评估系统** (`evaluation/`): 支持多最优解的测试集生成和模型评估
 3. **训练配置** (`llama_factory_configs/`): 针对不同CoT长度的LoRA微调配置
 4. **脚本工具** (`scripts/`): 自动化的数据生成、训练和评估流程
+
 
 ## 二、数据准备
 
@@ -382,24 +342,7 @@ def is_correct_answer(model_answer, test_case):
 | Very Long | 1803.1 | 48/100 | 48.0% | +118.2% |
 | Ultra Long | 1817.0 | 50/100 | 50.0% | +127.3% |
 
-### 4.3 性能分析
-
-![CoT性能分析图](cot_performance_analysis.png)
-
-**关键发现：**
-
-1. **显著性能提升**: 所有CoT模型相比Baseline都有显著提升，最低提升81.8%，最高提升136.4%
-
-2. **最优CoT长度**: Long CoT（676.4字符）达到最佳性能52%，超过目标50%
-
-3. **性能趋势**: 
-   - CoT长度在0-700字符范围内，性能随长度增加而提升
-   - 超过700字符后，性能增长趋于平缓甚至略有下降
-   - 存在最优CoT长度区间
-
-4. **相关性分析**: CoT长度与准确率的相关系数为0.734，显示强正相关关系
-
-### 4.4 难度分析
+### 4.3 难度分析
 
 按测试集难度分布的详细结果：
 
